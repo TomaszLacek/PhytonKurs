@@ -116,17 +116,17 @@
 
 
 
-
+print ("Konwerter Fahrenheit - Celcjusz")
 temp = input("Wrowadz temperature w Celcjuszasz lub Fahrenheitach? (np., 45F, 102C itd.) : ")
 stopnie = int(temp[:-1])
 i_convention = temp[-1]
 
 if i_convention.upper() == "C":
-  result = int(round((9 * stopni) / 5 + 32))
+  result = int(round((9 * stopnie) / 5 + 32))
   o_convention = "Fahrenheit"
 elif i_convention.upper() == "F":
   result = int(round((stopnie - 32) * 5 / 9))
-  o_convention = "Celcjusza"
+  o_convention = "Celcjuszach"
 else:
   print("Wprowadz liczbe stopni.")
   quit()
