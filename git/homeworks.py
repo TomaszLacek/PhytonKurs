@@ -62,7 +62,6 @@
 #
 # sep = separator()
 # print(sep)
-# print("Zadanie 1 cd")
 # for liczba in range(1,11):
 #     print(liczba)
 #     print(separator())
