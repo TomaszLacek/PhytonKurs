@@ -29,7 +29,7 @@ while not program_choice_decimal_or_not :
     else:
       print("Poprawnie dokonano wyboru. Podałeś: " +user_choice)
       if int ( program_choice ) == 1 :
-          programs_menu = "Przeliczanie stopni w skali Celcjusza i Fahrenheita."
+          program_list = "Przeliczanie stopni w skali Celcjusza i Fahrenheita."
           print ("Konwerter Fahrenheit - Celcjusz")
           temp = input ("Wrowadz temperature w Celcjuszasz lub Fahrenheitach? (np., 45F, 102C itd.) : " )
 
